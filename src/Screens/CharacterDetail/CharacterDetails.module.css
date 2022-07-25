@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+}
+
+.row_div {
+  display: flex;
+  flex: 1;
+}
+
+.back_img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-top: 46px;
+  margin-left: 98px;
+  z-index: 100;
+}
+
+.image_first_div {
+  left: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: transparent;
+  width: 40vw;
+  height: 100vh;
+  z-index: 1;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(13, 13, 13, 0),
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.9),
+    rgb(0, 0, 0, 1)
+  );
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.small_img {
+  /* width: 25%;
+  height: 50%; */
+  /* padding: 10px;
+  display: flex; */
+  /* flex: 1; */
+  width: 180px;
+  height: 250px;
+  /* border-width: 10px; */
+  border-radius: 2%;
+  object-fit: cover;
+}
+
+.detail_container_div {
+  display: flex;
+  flex: 1;
+  margin: 50px;
+}
+
+.image {
+  width: 40vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.detail_div {
+  display: flex;
+  flex: 2;
+  /* background-color: brown; */
+}
+
+.loading_div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+.left_div_name {
+  margin-top: 20px;
+}
+
+.detail_container_sub_div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+.a {
+  margin-top: 10px;
+}
+
+.appearance_div {
+  display: flex;
+  /* flex: 1; */
+  background-color: #1a1a1a;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.birthday_div {
+  display: flex;
+  flex: 0.75;
+  margin: 70px;
+  justify-content: center;
+}
+
+.birthday_logo {
+  width: 1vw;
+  height: fit-content;
+  /* background-color: aqua; */
+}
+
+.other_char_img {
+  width: 7vw;
+  height: 9vw;
+  margin-right: 10px;
+  border-radius: 10px;
+}

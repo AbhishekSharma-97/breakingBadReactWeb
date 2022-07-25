@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "test"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "test2"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./assets/fonts/Roboto-Medium.ttf") format("truetype");
+}
